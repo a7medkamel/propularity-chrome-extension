@@ -12,38 +12,33 @@
   "content_scripts": [ {
 
     "js": [
-      //tmp hack
-      "data/common/libs/uri.js",
-      //
       "data/common/libs/require.js",
       //
-      "data/common/libs/jquery.min.js",
+      "data/common/libs/jquery.js",
       "data/common/libs/underscore.js",
       "data/common/libs/backbone.js",
-
-      "data/common/WL.js",
-      // "data/common/Overlay.js",
-      "data/common/Scrapers.js",
-      "data/common/Injectors.js",
 
       "data/chrome/wunderlist-chrome-port-wrapper.js",
       "data/chrome/wunderlist-chrome.js",
       //
       "data/common/app/conf.js",
-      // //
-      "data/common/app/models/page.js",
+      //
       "data/common/app/models/handler.js",
       "data/common/app/models/identity.js",
       //
       "data/common/app/decorators/identity.js",
-      // //
+      //
       "data/common/app/registry.js",
-      "data/common/app/handlers/reddit.js",
-      "data/common/app/handlers/hackernews.js",
-      "data/common/app/handlers/twitter.js",
-      "data/common/app/handlers/cnn.js",
-      "data/common/app/handlers/facebook.js",
-      // //
+      "data/common/app/handlers/explicit/engadget.js",
+      "data/common/app/handlers/explicit/theverge.js",
+      "data/common/app/handlers/explicit/hackernews.js",
+      "data/common/app/handlers/explicit/reddit.js",
+      "data/common/app/handlers/explicit/twitter.js",
+      "data/common/app/handlers/explicit/cnn.js",
+      "data/common/app/handlers/explicit/facebook.js",
+      //
+      "data/common/app/handlers/microformat/1.js",
+      //
       "data/common/app/workflow.js",
       "data/common/app/app.js",
       "data/common/app/startup.js"
@@ -51,7 +46,7 @@
 
     "css": [
 
-      "data/common/css/styles.css"
+      "data/common/css/embed.css"
     ],
 
     "matches": [
@@ -75,6 +70,10 @@
       "tabs"
     , "http://*/*"
     // , "contextMenus"
+  ],
+
+  "web_accessible_resources": [
+    "data/common/libs/jquery.map"
   ],
 
   "version": "0.5",
