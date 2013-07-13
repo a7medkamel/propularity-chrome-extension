@@ -1,7 +1,7 @@
 define('app/conf', [], function(){
   return {
         namespace 					: 'propularity'
-      , host      					: 'http://alpha.propularity.com/'
+      , host      					: 'http://propularity.com/'
       , handlers 						: {
       		namespace 				: 'app/handlers/'
       	, context 					: '_'
@@ -11,7 +11,7 @@ define('app/conf', [], function(){
       }
       , modules             : {
           findAll : function() {
-            return propularity_ns.require.s.contexts['_'].registry;
+            return propularity.require.s.contexts['_'].registry;
           }
       }
   };

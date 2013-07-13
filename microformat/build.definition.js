@@ -2,8 +2,8 @@
     appDir 							: "../data/common"
   , baseUrl 						: "./"
   , dir 								: "./build"
-  , namespace 					: "propularity_ns"
-  , mainConfigFile 			: './app/require.config.js'
+  , namespace 					: "propularity"
+  , mainConfigFile 			: "./app/require.config.js"
   , modules 						: [
         {
         		name 				: "microformat"
