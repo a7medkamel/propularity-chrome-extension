@@ -1,5 +1,5 @@
 describe("init-microformat", function() {
-  it("should be able to play a Song", function() {
+  it("should be able to render prop button", function() {
 
     var signal = 0;
 
