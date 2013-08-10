@@ -26,8 +26,6 @@
       "data/common/app/models/handler.js",
       "data/common/app/models/identity.js",
       //
-      "data/common/app/decorators/identity.js",
-      //
       "data/common/app/registry.js",
       "data/common/app/handlers/explicit/engadget.js",
       "data/common/app/handlers/explicit/theverge.js",
