@@ -1,31 +1,18 @@
 {
-  // "background": {
-
-  //   "page": "app.html"
-  // },
-
-  // "browser_action": {
-
-  //   "default_icon": "data/common/icons/AddToWLIcon128.png"
-  // },
-
   "content_scripts": [ {
 
     "js": [
       "data/common/libs/require.js",
-      //
+
       "data/common/libs/jquery.js",
       "data/common/libs/underscore.js",
       "data/common/libs/backbone.js",
 
-      "data/chrome/wunderlist-chrome-port-wrapper.js",
-      "data/chrome/wunderlist-chrome.js",
-      //
       "data/common/app/conf.js",
-      //
+
       "data/common/app/models/handler.js",
       "data/common/app/models/identity.js",
-      //
+
       "data/common/app/registry.js",
       "data/common/app/handlers/explicit/engadget.js",
       "data/common/app/handlers/explicit/theverge.js",
@@ -34,9 +21,9 @@
       "data/common/app/handlers/explicit/twitter.js",
       "data/common/app/handlers/explicit/cnn.js",
       "data/common/app/handlers/explicit/facebook.js",
-      //
+
       "data/common/app/handlers/microformat/1.js",
-      //
+
       "data/common/app/workflow.js",
       "data/common/app/app.js",
       "data/common/app/startup.js"
@@ -67,7 +54,6 @@
   "permissions": [
       "tabs"
     , "http://*/*"
-    // , "contextMenus"
   ],
 
   "web_accessible_resources": [
@@ -77,9 +63,8 @@
   "version": "0.5",
 
   "icons": {
-
-    "16": "data/common/icons/AddToWLIcon16.png",
-    "48": "data/common/icons/AddToWLIcon48.png",
-    "128": "data/common/icons/AddToWLIcon128.png"
+    "16": "data/common/icons/logo-16.png",
+    "48": "data/common/icons/logo-48.png",
+    "128": "data/common/icons/logo-128.png"
   }
 }
