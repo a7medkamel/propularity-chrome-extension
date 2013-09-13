@@ -60,7 +60,7 @@
     "data/common/libs/jquery.map"
   ],
 
-  "version": "0.5",
+  "version": "0.5.3",
 
   "icons": {
     "16": "data/common/icons/logo-16.png",

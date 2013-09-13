@@ -1,7 +1,7 @@
 define('app/conf', [], function(){
   return {
         namespace 					: 'propularity'
-      , host      					: 'http://propularity.com/'
+      , host      					: 'http://www.propularity.com/'
       , handlers 						: {
       		namespace 				: 'app/handlers/'
       	, context 					: '_'
