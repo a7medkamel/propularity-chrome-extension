@@ -10,6 +10,7 @@
 
       "data/common/app/conf.js",
 
+      "data/common/app/models/page.js",
       "data/common/app/models/handler.js",
       "data/common/app/models/identity.js",
 
@@ -21,10 +22,11 @@
       "data/common/app/handlers/explicit/twitter.js",
       "data/common/app/handlers/explicit/cnn.js",
       "data/common/app/handlers/explicit/facebook.js",
+      "data/common/app/handlers/explicit/plus.google.js",
 
       "data/common/app/handlers/microformat/1.js",
 
-      "data/common/app/workflow.js",
+      "data/common/app/overlay.js",
       "data/common/app/app.js",
       "data/common/app/startup.js"
     ],
@@ -60,7 +62,7 @@
     "data/common/libs/jquery.map"
   ],
 
-  "version": "0.5.3",
+  "version": "0.1.1",
 
   "icons": {
     "16": "data/common/icons/logo-16.png",
